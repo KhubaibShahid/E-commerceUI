@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div className="home-container max-w-[1440px] mx-auto">
+    <div className="home-container max-w-[1440px] mx-auto font-[family-name:var(--mypoppins)]">
       {/* hero-section */}
       <Navbar className="bg-[#FBEBB5]"></Navbar>
       <div className="hero-section h-[85svh] max-h-[700px] bg-[#FBEBB5] w-[100%] flex lg:items-center justify-center">

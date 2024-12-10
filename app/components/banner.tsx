@@ -4,7 +4,7 @@ import LOGO from "../assests/logo.svg";
 
 export default function Banner({heading, location}:{heading:string, location:string}) {
     return (
-        <div className="shop-herosection h-[316px]">
+        <div className="shop-herosection h-[316px] font-[family-name:var(--mypoppins)]">
         <div className="flex justify-center items-center h-full">
           <div className=" flex flex-col items-center">
             <Image width={70} src={LOGO} alt="logo"></Image>

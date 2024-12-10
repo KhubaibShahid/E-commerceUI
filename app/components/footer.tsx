@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <div className="footer bg-white px-5">
+        <div className="footer bg-white px-5 font-[family-name:var(--mypoppins)]">
 
 
             <div className="flex mb-10 mt-24 md:justify-evenly md:items-start md:flex-row flex-col md:gap-10 gap-y-20 items-center">
@@ -32,7 +32,7 @@ export default function Footer() {
                 <div className="text-sm flex flex-col">
                     <div className="text-[#9f9f9f] mb-12">Newsletter</div>
                     <div className="">
-                        <input type="text" className="text-[12px] pb-1 poppins-thin border-b w-[170px] mb-2 border-black me-2" placeholder="Enter Your Email Address" />
+                        <input type="text" className="text-[12px] pb-1 outline-none poppins-thin border-b w-[170px] mb-2 border-black me-2" placeholder="Enter Your Email Address" />
                         <button className="bg-transparent text-[12px] border-b-[1.5px] pb-1 text-black border-b-black">SUBSCRIBE</button>
                     </div>
                 </div>

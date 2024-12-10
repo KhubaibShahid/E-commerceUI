@@ -9,7 +9,7 @@ import { RiDeleteBin7Fill as Delete } from "react-icons/ri";
 
 export default function CartApp() {
   return (
-    <div className="main">
+    <div className="cart-main font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner location="Cart" heading="Cart"></Banner>
       <div className="cart-section flex px-3 xl:px-20 py-20 justify-between xl:flex-row flex-col gap-10">

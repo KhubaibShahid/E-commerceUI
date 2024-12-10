@@ -9,7 +9,7 @@ import PHONE from "../assests/phone.svg";
 
 export default function ContactApp() {
   return (
-    <div className="contact-main px-3">
+    <div className="contact-main px-3 font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner heading="Contact" location="Contact"></Banner>
       <div className="conatiner">

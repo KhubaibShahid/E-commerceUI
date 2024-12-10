@@ -18,7 +18,7 @@ import TN8 from "../assests/thumbnail8.png";
 
 export default function BlogApp() {
   return (
-    <div className="blog-main">
+    <div className="blog-main font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner location="Blog" heading="Blog"></Banner>
       <div className="pt-20 xl:pe-20 lg:pe-0 lg:ps-20 md:ps-10 sm:ps-5">

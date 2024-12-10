@@ -4,7 +4,7 @@ import "./globals.css";
 
 const poppins = localFont({
   src: "./fonts/Poppins/Poppins-Medium.ttf",
-  variable: "--poppins",
+  variable: "--mypoppins",
 });
 const poppinsLight = localFont({
   src: "./fonts/Poppins/Poppins-Light.ttf",
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${poppins} ${poppinsLight} ${poppinsThin} font-[family-name:var(--poppins)]`}
+        className={`${poppins} ${poppinsLight} ${poppinsThin}`}
       >
         {children}
       </body>

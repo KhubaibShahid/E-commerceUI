@@ -14,10 +14,10 @@ import HEART from "../assests/Vector (2).svg";
 import CART from "../assests/Vector.svg";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "Shop", href: "/shop", current: false },
-  { name: "About", href: "#", current: false },
-  { name: "Contact", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Shop", href: "/Shop", current: false },
+  { name: "About", href: "/Blog", current: false },
+  { name: "Contact", href: "/Contact", current: false },
 ];
 
 function classNames(...classes: any) {
@@ -26,8 +26,8 @@ function classNames(...classes: any) {
 
 export default function Navbar({className} : {className : string}) {
   return (
-    <Disclosure as="nav" className={className}>
-      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <Disclosure as="nav" className={`${className} font-[family-name:var(--mypoppins)] text-sm md:text-md`}>
+      <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
         <div className="relative flex items-center justify-between h-[100px]">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
@@ -64,10 +64,10 @@ export default function Navbar({className} : {className : string}) {
               </div>
             </div>
           <div className="absolute inset-y-0 right-0 flex items-center max-w-[247px] w-[247px] justify-between pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <Image alt="user" src={USER}></Image>
-            <Image alt="user" src={MAGNIFIER}></Image>
-            <Image alt="user" src={HEART}></Image>
-            <Image alt="user" src={CART}></Image>
+            <Image alt="user" className="w-5 md:w-6 md:h-6" src={USER}></Image>
+            <Image alt="user" className="w-5 md:w-6 md:h-6" src={MAGNIFIER}></Image>
+            <Image alt="user" className="w-5 md:w-6 md:h-6" src={HEART}></Image>
+            <Image alt="user" className="w-5 md:w-6 md:h-6" src={CART}></Image>
           </div>
 
           </div>

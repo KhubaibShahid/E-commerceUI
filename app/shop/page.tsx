@@ -110,7 +110,7 @@ const items = [
 
 export default function ShopApp() {
   return (
-    <div className="main-shop mx-auto max-w-[1440px]">
+    <div className="main-shop mx-auto max-w-[1440px] font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner location="Shop" heading="Shop"></Banner>
 

@@ -5,7 +5,7 @@ import Services from "../components/service";
 
 export default function MyAccount() {
   return (
-    <div className="main">
+    <div className="account-main font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner location="my account" heading="My Account"></Banner>
       <div className="flex my-20 justify-around md:flex-row flex-col items-center gap-y-10">

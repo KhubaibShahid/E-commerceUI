@@ -5,7 +5,7 @@ import Services from "../components/service";
 
 export default function CheckoutApp() {
   return (
-    <div className="main">
+    <div className="main font-[family-name:var(--mypoppins)]">
       <Navbar className=""></Navbar>
       <Banner location="Checkout" heading="Checkout"></Banner>
       <div className="flex my-20 justify-evenly md:flex-row flex-col-reverse md:items-start items-center gap-y-10">
